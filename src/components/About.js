@@ -7,7 +7,7 @@ const About = () => {
       id="about"
     >
       <div className="container mx-auto flex items-center flex-col">
-        <h2 className="text-2xl font-medium text-center">About</h2>
+        <h2 className="text-2xl font-medium text-center mb-4">About</h2>
         <div className="mx-4">
           <p>
             A brief introduction about yourself, your background, experience,

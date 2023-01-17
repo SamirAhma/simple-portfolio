@@ -6,9 +6,14 @@ const ContactUs = () => {
       id="contact"
       className="py-12 h-screen flex items-center justify-center"
     >
-      <div className="container mx-auto  flex  justify-center flex-col items-center">
+      <div className="container sm:mx-auto mx-4  flex  justify-center flex-col items-center">
         <h2 className="text-3xl font-medium mb-4">Contact Us</h2>
-        <form name="contact" method="POST" data-netlify="true">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          className="md:w-[500px] sm:w-[400px] w-[300px]"
+        >
           <div className="mb-4">
             <label
               className="block text-gray-700 font-medium mb-2"
@@ -17,7 +22,7 @@ const ContactUs = () => {
               Name
             </label>
             <input
-              className="bg-gray-200 p-2 rounded-lg"
+              className="bg-gray-200 p-2 rounded-lg w-full "
               type="text"
               name="name"
               id="name"
@@ -32,7 +37,7 @@ const ContactUs = () => {
               Email
             </label>
             <input
-              className="bg-gray-200 p-2 rounded-lg"
+              className="bg-gray-200 p-2 rounded-lg w-full "
               type="email"
               name="email"
               id="email"
@@ -47,7 +52,7 @@ const ContactUs = () => {
               Message
             </label>
             <textarea
-              className="bg-gray-200 p-2 rounded-lg"
+              className="bg-gray-200 p-2 rounded-lg w-full "
               name="message"
               id="message"
               rows={8}

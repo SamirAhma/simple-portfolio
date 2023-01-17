@@ -1,13 +1,14 @@
 import React from "react";
+import MobileMenu from "./MoblieMenu";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-900 py-4 fixed w-screen">
-      <div className="container mx-auto flex items-center justify-between">
+    <nav className="bg-gray-900 py-4 fixed w-screen ">
+      <div className="container sm:mx-auto px-3 flex items-center justify-between">
         <a href="#" className="text-white text-2xl font-medium">
           AHMADDIN
         </a>
-        <div className="flex items-center">
+        <div className="flex items-center hidden sm:flex">
           <a href="#home" className="px-4 text-white">
             Home
           </a>
@@ -23,7 +24,11 @@ const Navbar = () => {
           <a href="#contact" className="px-4 text-white">
             Contact
           </a>
+          <a href="#resume" className="px-4 text-white">
+            Resume
+          </a>
         </div>
+        <MobileMenu />
       </div>
     </nav>
   );

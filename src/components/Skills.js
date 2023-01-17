@@ -3,9 +3,9 @@ import React from "react";
 const Skills = () => {
   return (
     <section id="skills" className="py-12 h-screen flex items-center">
-      <div className="container mx-auto">
+      <div className="container sm:mx-auto mx-4">
         <h2 className="text-3xl font-medium mb-4">Skills</h2>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
           <div className="bg-gray-200 p-4 rounded-lg">
             <h3 className="text-lg font-medium">ReactJS</h3>
           </div>
