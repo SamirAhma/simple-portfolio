@@ -33,7 +33,7 @@
 </ol>
 
 <h2>Deployment</h2>
-<p>The website is deployed using <a href="https://www.netlify.com/">Netlify</a> and can be accessed at <a href="https://ahmaddin.netlify.app/">https://ahmaddin.netlify.app/</a>.</p>
+<p>The website is deployed using <a href="https://www.netlify.com/">Netlify</a> and can be accessed at <a href="https://simple-tailwind-portfolio.netlify.app">simple-tailwind-portfolio</a>.</p>
 
 <h2>Author</h2>
 <p>Ahmaddin Samir - <a href="https://github.com/SamirAhma">GitHub</a> - <a href="https://linkedin.com/in/ahmaddin-samir-240b68aa">LinkedIn</a></p>
