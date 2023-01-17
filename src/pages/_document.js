@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <script defer src="https://cdn.tailwindcss.com"></script>
+        <script async src="https://cdn.tailwindcss.com"></script>
         <title>Ahmaddin</title>
       </Head>
       <body>
