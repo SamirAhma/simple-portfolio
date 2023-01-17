@@ -22,7 +22,7 @@
 <h2>Installation</h2>
 <ol>
   <li>Clone the repository<br>
-    <code>git clone https://github.com/SamirAhma/portfolio-website.git</code>
+    <code>git clone https://github.com/SamirAhma/simple-portfolio.git</code>
   </li>
   <li>Install dependencies<br>
     <code>npm install</code>
