@@ -1,14 +1,14 @@
 <h1>Portfolio Website</h1>
-<p>This is my personal portfolio website built with Next.js, a framework for building server-rendered React applications. It showcases my work experience, skills, projects, and education as a web developer.</p>
+<p>This is my portfolio website built with Next.js, a framework for building server-rendered React applications. It showcases  work experience, skills, and projects </p>
 
 <h2>Features</h2>
 <ul>
   <li>Responsive and user-friendly design</li>
   <li>Navbar for easy navigation</li>
   <li>Hero section to introduce myself</li>
-  <li>Work section to showcase my portfolio</li>
-  <li>Skills section to display my technical abilities</li>
-  <li>Contact form to get in touch with me</li>
+  <li>Work section to showcase  portfolio</li>
+  <li>Skills section to display  technical abilities</li>
+  <li>Contact form to get in touch</li>
 </ul>
 
 <h2>Technologies Used</h2>
